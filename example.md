@@ -10,7 +10,8 @@ llm-from-scratch/
 │       ├── sinusoidal.py     
 │       ├── learned.py
 │       ├── rope.py            
-│       └── alibi.py           
+│       ├── longRope.py
+|       └── nope.py
 │
 ├── attention/
 │   ├── self_attention.py      
