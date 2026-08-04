@@ -15,11 +15,11 @@ for pos in range(max_seq_len):
 
     # проходимся по половине измерений эмбеддинга
     # один i заполняет сразу две координаты:
-    # 2*i     -> sin, 2*i + 1 -> cos
+    # 2*i -> sin, 2*i + 1 -> cos
 
     # iterate through half of the embedding dimensions
-    # one i fill two coordinates
-    # 2*i     -> sin, 2*i + 1 -> cos
+    # one "i" fill two coordinates
+    # 2*i -> sin, 2*i + 1 -> cos
     for i in range(embedding_dim // 2):
         # знаменатель из формулы:
         # the denominator from the formula:
